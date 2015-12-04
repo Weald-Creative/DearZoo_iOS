@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BB9A931C119CF90033B8D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB9A921C119CF90033B8D5 /* AppDelegate.swift */; };
+		52BB9A951C119CF90033B8D5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB9A941C119CF90033B8D5 /* art.scnassets */; };
+		52BB9A971C119CF90033B8D5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB9A961C119CF90033B8D5 /* GameViewController.swift */; };
+		52BB9A9A1C119CF90033B8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BB9A981C119CF90033B8D5 /* Main.storyboard */; };
+		52BB9A9C1C119CF90033B8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB9A9B1C119CF90033B8D5 /* Assets.xcassets */; };
+		52BB9A9F1C119CF90033B8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BB9A9D1C119CF90033B8D5 /* LaunchScreen.storyboard */; };
+		52BB9AAA1C119CF90033B8D5 /* DearZoo_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB9AA91C119CF90033B8D5 /* DearZoo_iOSTests.swift */; };
+		52BB9AB51C119CF90033B8D5 /* DearZoo_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB9AB41C119CF90033B8D5 /* DearZoo_iOSUITests.swift */; };
+		52BB9ACD1C11BFA70033B8D5 /* cubemap_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB9ACA1C11BFA70033B8D5 /* cubemap_bottom.png */; };
+		52BB9ACE1C11BFA70033B8D5 /* cubemap_side.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB9ACB1C11BFA70033B8D5 /* cubemap_side.png */; };
+		52BB9ACF1C11BFA70033B8D5 /* cubemap_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB9ACC1C11BFA70033B8D5 /* cubemap_top.png */; };
+		A0797DE6E11F02EF14A81E54 /* Pods_DearZoo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD463E5047B0D9E0987B46B /* Pods_DearZoo_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BB9AA61C119CF90033B8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BB9A871C119CF90033B8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BB9A8E1C119CF90033B8D5;
+			remoteInfo = DearZoo_iOS;
+		};
+		52BB9AB11C119CF90033B8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BB9A871C119CF90033B8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BB9A8E1C119CF90033B8D5;
+			remoteInfo = DearZoo_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52BB9A8F1C119CF90033B8D5 /* DearZoo_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DearZoo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BB9A921C119CF90033B8D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52BB9A941C119CF90033B8D5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		52BB9A961C119CF90033B8D5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		52BB9A991C119CF90033B8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BB9A9B1C119CF90033B8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52BB9A9E1C119CF90033B8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52BB9AA01C119CF90033B8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BB9AA51C119CF90033B8D5 /* DearZoo_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DearZoo_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BB9AA91C119CF90033B8D5 /* DearZoo_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DearZoo_iOSTests.swift; sourceTree = "<group>"; };
+		52BB9AAB1C119CF90033B8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BB9AB01C119CF90033B8D5 /* DearZoo_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DearZoo_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BB9AB41C119CF90033B8D5 /* DearZoo_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DearZoo_iOSUITests.swift; sourceTree = "<group>"; };
+		52BB9AB61C119CF90033B8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BB9ACA1C11BFA70033B8D5 /* cubemap_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_bottom.png; sourceTree = "<group>"; };
+		52BB9ACB1C11BFA70033B8D5 /* cubemap_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_side.png; sourceTree = "<group>"; };
+		52BB9ACC1C11BFA70033B8D5 /* cubemap_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_top.png; sourceTree = "<group>"; };
+		767C9804E7149A6EAC86DDB2 /* Pods-DearZoo_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DearZoo_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DearZoo_iOS/Pods-DearZoo_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7D9F8FF80A8C0153CC58253E /* Pods-DearZoo_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DearZoo_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DearZoo_iOS/Pods-DearZoo_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD463E5047B0D9E0987B46B /* Pods_DearZoo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DearZoo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BB9A8C1C119CF90033B8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0797DE6E11F02EF14A81E54 /* Pods_DearZoo_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BB9AA21C119CF90033B8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BB9AAD1C119CF90033B8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7C332667F67C8DA44F90B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F8FF80A8C0153CC58253E /* Pods-DearZoo_iOS.debug.xcconfig */,
+				767C9804E7149A6EAC86DDB2 /* Pods-DearZoo_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41BB96F2ED509AD3035C9827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD463E5047B0D9E0987B46B /* Pods_DearZoo_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52BB9A861C119CF90033B8D5 = {
+			isa = PBXGroup;
+			children = (
+				52BB9A911C119CF90033B8D5 /* DearZoo_iOS */,
+				52BB9AA81C119CF90033B8D5 /* DearZoo_iOSTests */,
+				52BB9AB31C119CF90033B8D5 /* DearZoo_iOSUITests */,
+				52BB9A901C119CF90033B8D5 /* Products */,
+				3D7C332667F67C8DA44F90B7 /* Pods */,
+				41BB96F2ED509AD3035C9827 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52BB9A901C119CF90033B8D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BB9A8F1C119CF90033B8D5 /* DearZoo_iOS.app */,
+				52BB9AA51C119CF90033B8D5 /* DearZoo_iOSTests.xctest */,
+				52BB9AB01C119CF90033B8D5 /* DearZoo_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BB9A911C119CF90033B8D5 /* DearZoo_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				52BB9ACA1C11BFA70033B8D5 /* cubemap_bottom.png */,
+				52BB9ACB1C11BFA70033B8D5 /* cubemap_side.png */,
+				52BB9ACC1C11BFA70033B8D5 /* cubemap_top.png */,
+				52BB9A921C119CF90033B8D5 /* AppDelegate.swift */,
+				52BB9A941C119CF90033B8D5 /* art.scnassets */,
+				52BB9A961C119CF90033B8D5 /* GameViewController.swift */,
+				52BB9A981C119CF90033B8D5 /* Main.storyboard */,
+				52BB9A9B1C119CF90033B8D5 /* Assets.xcassets */,
+				52BB9A9D1C119CF90033B8D5 /* LaunchScreen.storyboard */,
+				52BB9AA01C119CF90033B8D5 /* Info.plist */,
+			);
+			path = DearZoo_iOS;
+			sourceTree = "<group>";
+		};
+		52BB9AA81C119CF90033B8D5 /* DearZoo_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				52BB9AA91C119CF90033B8D5 /* DearZoo_iOSTests.swift */,
+				52BB9AAB1C119CF90033B8D5 /* Info.plist */,
+			);
+			path = DearZoo_iOSTests;
+			sourceTree = "<group>";
+		};
+		52BB9AB31C119CF90033B8D5 /* DearZoo_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52BB9AB41C119CF90033B8D5 /* DearZoo_iOSUITests.swift */,
+				52BB9AB61C119CF90033B8D5 /* Info.plist */,
+			);
+			path = DearZoo_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BB9A8E1C119CF90033B8D5 /* DearZoo_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BB9AB91C119CF90033B8D5 /* Build configuration list for PBXNativeTarget "DearZoo_iOS" */;
+			buildPhases = (
+				97DC7B27200C2AED4C8336E6 /* Check Pods Manifest.lock */,
+				52BB9A8B1C119CF90033B8D5 /* Sources */,
+				52BB9A8C1C119CF90033B8D5 /* Frameworks */,
+				52BB9A8D1C119CF90033B8D5 /* Resources */,
+				4D5226AFC61204BAABB66A9C /* Embed Pods Frameworks */,
+				72F2FC3913C53B543786015C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DearZoo_iOS;
+			productName = DearZoo_iOS;
+			productReference = 52BB9A8F1C119CF90033B8D5 /* DearZoo_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52BB9AA41C119CF90033B8D5 /* DearZoo_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BB9ABC1C119CF90033B8D5 /* Build configuration list for PBXNativeTarget "DearZoo_iOSTests" */;
+			buildPhases = (
+				52BB9AA11C119CF90033B8D5 /* Sources */,
+				52BB9AA21C119CF90033B8D5 /* Frameworks */,
+				52BB9AA31C119CF90033B8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BB9AA71C119CF90033B8D5 /* PBXTargetDependency */,
+			);
+			name = DearZoo_iOSTests;
+			productName = DearZoo_iOSTests;
+			productReference = 52BB9AA51C119CF90033B8D5 /* DearZoo_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52BB9AAF1C119CF90033B8D5 /* DearZoo_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BB9ABF1C119CF90033B8D5 /* Build configuration list for PBXNativeTarget "DearZoo_iOSUITests" */;
+			buildPhases = (
+				52BB9AAC1C119CF90033B8D5 /* Sources */,
+				52BB9AAD1C119CF90033B8D5 /* Frameworks */,
+				52BB9AAE1C119CF90033B8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BB9AB21C119CF90033B8D5 /* PBXTargetDependency */,
+			);
+			name = DearZoo_iOSUITests;
+			productName = DearZoo_iOSUITests;
+			productReference = 52BB9AB01C119CF90033B8D5 /* DearZoo_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BB9A871C119CF90033B8D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = leeprobert;
+				TargetAttributes = {
+					52BB9A8E1C119CF90033B8D5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					52BB9AA41C119CF90033B8D5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 52BB9A8E1C119CF90033B8D5;
+					};
+					52BB9AAF1C119CF90033B8D5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 52BB9A8E1C119CF90033B8D5;
+					};
+				};
+			};
+			buildConfigurationList = 52BB9A8A1C119CF90033B8D5 /* Build configuration list for PBXProject "DearZoo_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BB9A861C119CF90033B8D5;
+			productRefGroup = 52BB9A901C119CF90033B8D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BB9A8E1C119CF90033B8D5 /* DearZoo_iOS */,
+				52BB9AA41C119CF90033B8D5 /* DearZoo_iOSTests */,
+				52BB9AAF1C119CF90033B8D5 /* DearZoo_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BB9A8D1C119CF90033B8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB9ACF1C11BFA70033B8D5 /* cubemap_top.png in Resources */,
+				52BB9A951C119CF90033B8D5 /* art.scnassets in Resources */,
+				52BB9A9F1C119CF90033B8D5 /* LaunchScreen.storyboard in Resources */,
+				52BB9A9C1C119CF90033B8D5 /* Assets.xcassets in Resources */,
+				52BB9ACE1C11BFA70033B8D5 /* cubemap_side.png in Resources */,
+				52BB9ACD1C11BFA70033B8D5 /* cubemap_bottom.png in Resources */,
+				52BB9A9A1C119CF90033B8D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BB9AA31C119CF90033B8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BB9AAE1C119CF90033B8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D5226AFC61204BAABB66A9C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DearZoo_iOS/Pods-DearZoo_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F2FC3913C53B543786015C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DearZoo_iOS/Pods-DearZoo_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DC7B27200C2AED4C8336E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BB9A8B1C119CF90033B8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB9A971C119CF90033B8D5 /* GameViewController.swift in Sources */,
+				52BB9A931C119CF90033B8D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BB9AA11C119CF90033B8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB9AAA1C119CF90033B8D5 /* DearZoo_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BB9AAC1C119CF90033B8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB9AB51C119CF90033B8D5 /* DearZoo_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BB9AA71C119CF90033B8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BB9A8E1C119CF90033B8D5 /* DearZoo_iOS */;
+			targetProxy = 52BB9AA61C119CF90033B8D5 /* PBXContainerItemProxy */;
+		};
+		52BB9AB21C119CF90033B8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BB9A8E1C119CF90033B8D5 /* DearZoo_iOS */;
+			targetProxy = 52BB9AB11C119CF90033B8D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52BB9A981C119CF90033B8D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BB9A991C119CF90033B8D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BB9A9D1C119CF90033B8D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BB9A9E1C119CF90033B8D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BB9AB71C119CF90033B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		52BB9AB81C119CF90033B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BB9ABA1C119CF90033B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9F8FF80A8C0153CC58253E /* Pods-DearZoo_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DearZoo_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.leeprobert.DearZoo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52BB9ABB1C119CF90033B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767C9804E7149A6EAC86DDB2 /* Pods-DearZoo_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DearZoo_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.leeprobert.DearZoo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52BB9ABD1C119CF90033B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DearZoo_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.leeprobert.DearZoo-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DearZoo_iOS.app/DearZoo_iOS";
+			};
+			name = Debug;
+		};
+		52BB9ABE1C119CF90033B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DearZoo_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.leeprobert.DearZoo-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DearZoo_iOS.app/DearZoo_iOS";
+			};
+			name = Release;
+		};
+		52BB9AC01C119CF90033B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DearZoo_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.leeprobert.DearZoo-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DearZoo_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		52BB9AC11C119CF90033B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DearZoo_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.leeprobert.DearZoo-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DearZoo_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BB9A8A1C119CF90033B8D5 /* Build configuration list for PBXProject "DearZoo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BB9AB71C119CF90033B8D5 /* Debug */,
+				52BB9AB81C119CF90033B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BB9AB91C119CF90033B8D5 /* Build configuration list for PBXNativeTarget "DearZoo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BB9ABA1C119CF90033B8D5 /* Debug */,
+				52BB9ABB1C119CF90033B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BB9ABC1C119CF90033B8D5 /* Build configuration list for PBXNativeTarget "DearZoo_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BB9ABD1C119CF90033B8D5 /* Debug */,
+				52BB9ABE1C119CF90033B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BB9ABF1C119CF90033B8D5 /* Build configuration list for PBXNativeTarget "DearZoo_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BB9AC01C119CF90033B8D5 /* Debug */,
+				52BB9AC11C119CF90033B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BB9A871C119CF90033B8D5 /* Project object */;
+}
